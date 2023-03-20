@@ -1,0 +1,61 @@
+:root {
+    --lightblue: #7BBBA0;
+    --forestgreen: #113109;
+    --bblack: #0c110d;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: monospace;
+}
+
+
+body {
+    background: var(--bg);
+}
+
+#oi {
+    background-color: #446835;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+
+.light-theme {
+    --bg: var(--lightblue);
+    --fontColor: var(--forestgreen);
+    --btnBg: var(--black);
+    --btnFontColor: var(--forestgreen);
+}
+
+.dark-theme {
+    --bg: var(--bblack);
+    --fontColor: var(--lightblue);
+    --btnBg: var(--forestgreen);
+    --btnFontColor: var(--bblack);
+}
+
+.btn {
+    position: absolute;
+    top: 18px;
+    left: 1280px;
+    height: 30px;
+    width: 60px;
+    border-radius: 250px;
+    color: var(--btnfontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
